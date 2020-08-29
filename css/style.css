@@ -191,18 +191,19 @@ button:focus,
     background   : #ffffff;
     }
 
-@media (max-width : 980px) {
+@media (max-width : 1024px) {
 
     .columns-block {
         display    : block;
         margin     : 0;
-        box-shadow : none;
+        box-shadow : none
         }
 
     .left-col-block {
         width    : 100%;
         position : relative;
         border   : 0;
+		max-width: 880px;
         }
 
     .right-col-block {
@@ -215,7 +216,7 @@ button:focus,
 @media (min-width : 69px) and (max-width : 1024px) {
     .columns-block {
         margin-top    : 30px;
-        margin-bottom : 30px;
+        margin-bottom : 10px;
         }
     }
 
