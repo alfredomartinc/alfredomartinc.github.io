@@ -191,7 +191,7 @@ button:focus,
     background   : #ffffff;
     }
 
-@media (max-width : 1024px) {
+@media (max-width : 990px) {
 
     .columns-block {
         display    : block;
